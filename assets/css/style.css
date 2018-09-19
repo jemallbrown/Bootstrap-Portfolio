@@ -1,0 +1,131 @@
+p, h2 {
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
+}
+
+
+/* font color for paragraphs */
+p {
+    color: #777777;
+}
+
+h1 {
+    padding: 0px;
+}
+
+.header {
+        background: #ffffff; 
+        border-bottom: solid 3px #cccccc;
+        padding: 0px; 
+        margin-bottom: 20px;
+        height: 60px;
+}
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica,sans-serif;
+    }
+
+    #jemall {
+        color: white;
+        background-color: #4aaaa5;
+        margin: 0px;
+        height: 58px;
+        padding-left: 10px;
+    }
+
+    .line-left { 
+        border-left:solid 2px #cccccc;
+        
+    }
+
+    .navbar {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica,sans-serif;
+        text-align: center;
+        padding: 0px;
+        height: 50px;
+    }
+ /* modified navigation links to have different behavior based on state*/
+/* unvisited link */
+a:link {
+    clear: both;
+    color: #777777;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #777777;
+}
+
+/* moused over link */
+a:hover {
+    color: blue;
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+    .aboutMe {
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        color: #4aaaa5;
+        margin: 20px;
+    }
+    
+    .topline {
+        border-top: 3px solid #cccccc;
+        padding-top: 10px;
+    }
+    
+    .maincontent {
+        background: #ffffff;
+        border: 3px solid #dddddd;
+        }
+
+
+        /* this is the area for my main content */
+#wrapper {
+    clear: both;
+    background: #ffffff;
+    margin: 20px auto auto auto;
+    width: 954px;
+    height: 500px;
+    padding-bottom: 20px;
+    border: 3px solid #dddddd;
+
+}
+
+/* about me header */
+#wrapper h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #cccccc;
+}
+
+.banner {
+    background-color: #4aaaa5;
+    text-align: center;
+    left: 15px;
+    width: 200px;
+
+}
+
+.buffer {
+    margin: 20px;
+    color: #777777;
+
+}
+
+/* used to format the message box on contact page form */
+.messagebox {
+    height: 60px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* frmttl is form total width adjustment. */
+
+.frmttl {
+    padding-left: 20px; 
+    width: 100%;
+}
